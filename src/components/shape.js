@@ -5,11 +5,11 @@ class Shape {
     }
     
     drawShape(){
-
+        console.log(this.color);
     };
     calculateArea(){
 
     };
 };
-module.exports.Shape = Shape;
+module.exports = Shape;
 // export class using module.exports

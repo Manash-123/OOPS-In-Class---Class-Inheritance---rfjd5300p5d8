@@ -12,10 +12,7 @@ class Circle extends Shape{
     };
 }
 
-// const circle1 = new Circle;
-// console.log(Circle.color);
-
-module.exports.Circle = Circle;
+module.exports = Circle;
 
 
 // export class using module.exports
